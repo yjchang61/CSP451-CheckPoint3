@@ -2,8 +2,8 @@ const express = require("express");
 
 const app = express();
 
-app.get("/", (req,   res) => {
-res.json({ status: "ok",     message: "Hello from CSP451" });
+app.get("/", (req, res) => {
+  res.json({ status: "ok", message: "Hello from CSP451" });
 });
 
 app.get("/health", (req, res) => {

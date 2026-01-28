@@ -21,4 +21,3 @@ describe("GET /health", () => {
     expect(res.body.uptime).toEqual(expect.any(Number));
   });
 });
-
